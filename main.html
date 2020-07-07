@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <link href="css.css" rel="stylesheet">
+  <base target="_top">
+</head>
+
+<body>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!-------------------------------------------------------------------BODY------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <div class="container">
+    <div class="row center-align">
+      <div class="input-field col s2"></div>
+      <div class="input-field col s4"><i class="material-icons prefix">perm_identity</i><input id="_1_" type="text"><label for="_1_">Количество ТС</label></div>
+      <div class="input-field col s4"><i class="material-icons prefix">perm_identity</i><input id="_2_" type="text"><label for="_2_">Оборачиваемость</label></div>
+    </div>
+
+  </div>
+  <div class="row center-align">
+    <button class="waves-effect waves-light btn-large" id="login"><i class="material-icons left">sync</i>Произвести
+      расчет
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="row center-align">
+      <table class="centered">
+        <thead>
+          <tr>
+            <th class="unselectable">Функция</th>
+            <th class="unselectable">Должность</th>
+            <th class="unselectable">Расчетные значения численности</th>
+            <th class="unselectable">Нормируемый параметр</th>
+            <th class="unselectable">Доп. параметр</th>
+            <th class="unselectable">Норма обслуживания</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td rowspan="5">Отдел эксплуатации</td>
+            <td>Начальник Отдела эксплуатации</td>
+            <td id="_10_"></td>
+            <td class="unselectable">на единицу организации</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">1</td>
+          </tr>
+          <tr>
+
+            <td>Заместитель начальника</td>
+            <td id="_11_"></td>
+            <td class="unselectable">численность отдела</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">30</td>
+          </tr>
+          <tr>
+
+            <td>Начальник автоколонны (НАК)</td>
+            <td id="_12_"></td>
+            <td class="unselectable">количество машин</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">60</td>
+          </tr>
+          <tr>
+
+            <td>Старший диспетчер</td>
+            <td id="_13_"></td>
+            <td class="unselectable">численность диспетчеров</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">20</td>
+          </tr>
+          <tr>
+
+            <td>Диспетчер</td>
+            <td id="_14_"></td>
+            <td class="unselectable">количество отслеживаемых параметров, количество рейсов в сутки</td>
+            <td class="unselectable">8</td>
+            <td id="_30_"></td>
+          </tr>
+          <tr>
+            <td rowspan="4">Отдел БДД</td>
+            <td>Начальник БДД</td>
+            <td id="_15_"></td>
+            <td class="unselectable">численность отдела</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">8</td>
+          </tr>
+          <tr>
+
+            <td>Инженер БДД</td>
+            <td id="_16_"></td>
+            <td class="unselectable">количество водителей</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">400</td>
+          </tr>
+          <tr>
+
+            <td>Специалист по теоретической подготовке</td>
+            <td id="_18_"></td>
+            <td class="unselectable">количество водителей</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">600</td>
+          </tr>
+          <tr>
+
+            <td>Дежурный механик БДД</td>
+            <td id="_19_"></td>
+            <td class="unselectable">количество отслеживаемых параметров, количество рейсов в сутки</td>
+            <td class="unselectable">12</td>
+            <td id="_31_"></td>
+          </tr>
+          <tr>
+            <td rowspan="3">Отдел ремонта/ главного механика</td>
+            <td>Главный механик</td>
+            <td id="_20_"></td>
+            <td class="unselectable">на единицу организации</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">1</td>
+          </tr>
+          <tr>
+
+            <td>Инженер по материально-техническому снабжению/ инженер по запасным частям</td>
+            <td id="_21_"></td>
+            <td class="unselectable">количество единиц ТС</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">150</td>
+          </tr>
+          <tr>
+
+            <td>Механик по ремонту</td>
+            <td id="_22_"></td>
+            <td class="unselectable">количество единиц ТС</td>
+            <td class="unselectable"></td>
+            <td class="unselectable">150</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="unselectable"><b>Итого</b></td>
+            <td id="_23_"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------FOOTER------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <footer class="page-footer red darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Пример ЛюдиPeople</h5>
+          <p class="white-text">
+            По вопросам обращаться:<br>
+            <b>+7 (495) 105-93-73 или fom@hr-people.net</b><br>
+            <i>GMT+3 (Москва). С 09:00</i>
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="red-text text-lighten-4" href="#!">Link 1</a></li>
+            <li><a class="red-text text-lighten-4" href="#!">Link 2</a></li>
+            <li><a class="red-text text-lighten-4" href="#!">Link 3</a></li>
+            <li><a class="red-text text-lighten-4" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 ООО Люди
+        <a class="red-text text-lighten-4 right" href="#!"> </a>
+      </div>
+    </div>
+  </footer>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------FOOTER------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------SCRIPTS----------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
