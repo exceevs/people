@@ -1181,9 +1181,11 @@ table, th, td {
 
 table {
   width: 100%;
-  display: table;
   border-collapse: collapse;
   border-spacing: 0;
+  overflow-x: auto;
+  display: block;
+  overflow-x: auto;
 }
 
 table.striped tr {
